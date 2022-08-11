@@ -1,0 +1,168 @@
+.header{
+    height: 600px;
+    width: 1500px;
+    background-color: orange;
+    margin-left: 150px;
+    
+    
+    
+}
+.top{
+    height: 100px;
+    width: 1480px;
+    background-color: rgb(176, 207, 228);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-left: 20px;
+    
+    
+    
+}
+.top a{
+    text-decoration: none;
+    color: black;
+    border: solid pink;
+    width: 120px;
+    height: 25px;
+    border-radius: 90px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: pink;
+}
+.rightpart a{
+    display: flex;
+    direction: columns;
+    padding-bottom: 90px;
+    text-decoration: none;
+    margin-left: 90px;
+    border: solid pink;
+    border-radius: 30px;
+    width: 30px;
+    /* border-radius: 30px; */
+    text-align: center;
+    background-color: pink;
+
+}
+.rightpart{
+    margin-top: 90px;
+}
+.word{
+    margin-left: 100px;
+display: fixed;
+   
+}
+
+.word a{
+    text-decoration: none;
+    color: pink;
+}
+.Adress{
+    margin-left: 100px;
+}
+.images{
+ margin-left: 700px;
+ margin-top: -180px;
+ display: fixed;
+ /* border: solid;
+ border-radius: 90px; */
+ 
+
+}
+.images img{
+    border: solid;
+    border-radius: 50px;
+
+}
+.email{
+    margin-left: 100px;
+    margin-top: 10px;
+    position: fixed;
+
+    
+}
+.number{
+    margin-left: 700px;
+    margin-top: 10px;
+   position: fixed;
+}
+.leftpart{
+    /* border: solid red; */
+    width: 900px;
+    height: 300px;
+    margin-left: 500px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    margin-top: -400px;
+
+   
+}
+.lastpart{
+    border: solid pink;
+    width: 900px;
+    height: 90px;
+    margin-left:500px;
+    margin-top: -60px;
+    position: fixed;
+    border-radius: 800px;
+    background-color: pink;
+    
+}
+.profile{
+    border: solid pink;
+    width: 1100px;
+    height: 200px;
+    padding-left: 100px;
+    border-radius: 50px;
+    background-color: pink;
+  margin-top: 100px;
+  margin-left: 100px;
+
+}
+ .home{
+    display: grid;
+    margin-left: 200px;
+    margin-top: -180px;
+    grid-template-columns: repeat(5,1fr);
+    
+
+
+}
+.home a{
+    text-decoration: none;
+    border: solid pink;
+    border-radius: 20px;
+}
+.headerprofile{
+   margin-right: 600px;
+   
+}
+.contenair{
+    margin-right: 600px;
+}
+.leftdiv{
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 50px;
+    grid-gap: 20px;
+    
+}
+.rightdiv{
+    text-align: center;
+    padding-left: 700px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin-top: 20px;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+      color:red;
+    }
+  }
