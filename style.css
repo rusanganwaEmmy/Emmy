@@ -1,4 +1,338 @@
-.header{
+
+@media screen and (min-width:320px) {
+  body{
+background-color: aquamarine;
+  }
+  .header{
+    background-color: orange;
+    margin-left: 5px;
+    height: auto;
+    width: 100%;
+  }
+  .top{
+    
+      height: 100px;
+      width: 1080px;
+      background-color: rgba(176, 207, 228, 0.315);
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      padding-left: 20px;
+    
+  }
+
+  .leftdiv{
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    grid-gap: 20px;
+    
+  }
+  .leftdiv a{
+   text-decoration: none;
+    
+  }
+
+  .rightdiv{
+    text-align: center;
+    padding-left: 10px;
+    display: flex;
+  flex-direction: row;
+    grid-gap: 5px;
+    margin-top: 20px;
+    
+  }
+  .rightdiv a{
+    text-decoration: none;
+    
+  }
+  
+  
+  .rightpart a{
+    display: flex;
+    direction: columns;
+  
+    text-decoration: none;
+    margin-left: 5px;
+    border: solid pink;
+    border-radius: 30px;
+    width: 70px;
+    
+    text-align: center;
+    background-color: pink;
+    margin-top: 7px;
+
+}
+  
+/* .rightpart{
+  margin-top: 90px;
+} */
+
+   .word{
+  margin-left: 3px;
+
+ 
+}   
+
+ .word a{
+  text-decoration: none;
+  color: pink;
+} 
+
+
+
+
+.leftpart{
+  border: solid red; 
+ width: 100%;
+ height: auto;
+ 
+ border-radius: 10px;
+ background-color: black;
+ color: white;
+ 
+ 
+
+
+}
+
+
+  .images img{
+  border: solid;
+  border-radius: 90px;
+
+ } 
+ /* .email{
+  margin-left: 20px;
+  margin-top: 10px;
+  position: fixed; 
+  
+  
+}   
+ .number{
+  margin-left: 4px;
+  margin-top: 10px;
+ position: fixed;
+
+} */
+/*  */
+
+
+/* 
+.profile{
+  border: solid pink;
+  width: 1100px;
+  height: 200px;
+  padding-left: 100px;
+  border-radius: 50px;
+  background-color: pink;
+margin-top: 100px;
+margin-left: 100px;
+
+}
+
+.home{
+  display: grid;
+  margin-left: 200px;
+  margin-top: -180px;
+  grid-template-columns: repeat(5,1fr);
+  
+
+
+}
+
+.home a{
+  text-decoration: none;
+  border: solid pink;
+  border-radius: 20px;
+}
+
+.headerprofile{
+  margin-right: 600px;
+  
+}
+.contenair{
+  margin-right: 600px;
+}
+
+
+ .rightdiv{
+  text-align: center;
+  padding-left: 10px;
+  display: flex;
+flex-direction: row;
+  grid-gap: 5px;
+  margin-top: 19px;
+  
+} 
+
+/* .images{
+  margin-left: 5px;
+  
+  display: fixed;
+   border: solid;
+  border-radius: 90px; 
+  
+ 
+ }  */*/ 
+} 
+ 
+@media screen and (min-width:769px){
+  .header{
+    width: 100%;
+  }
+  .top a{
+    font-size: 25px;
+    
+  }
+  .rightdiv{
+    margin-left: 140px;
+  }
+  .rightdiv a{
+    margin-left: 20px;
+   
+  }
+
+  .images{
+    margin-left: 550px;
+    margin-top: -180px;
+  }
+  
+}
+@media screen and (min-width:1025px){
+  .header{
+   
+    height: 450px;
+    width: 1100px;
+    margin-left: 50px;
+
+  }
+  
+    
+  
+  .leftpart{
+   margin-left: 270px;
+   margin-top: -150px;
+   height: 300px;
+   width: 800px;
+  }
+  .leftdiv a{
+    border: solid pink;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: pink;
+  }
+  .rightdiv{
+   margin-left: 230px;
+    grid-gap: 30px;
+  }
+  .rightdiv a{
+    border: solid pink;
+    width: 130px;
+    height: 35px;
+    background-color: pink;
+    border-radius: 20px;
+  }
+  .images{
+    margin-left: 600px;
+    
+
+  }
+  .rightpart{
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .leftdiv a{
+      background-color: lightblue;
+      color:red;
+    }
+  }
+  @media only screen and (min-width: 1025px) {
+    .rightdiv a{
+      background-color: lightblue;
+      color:red;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .header{
+      background-color: brown;
+      
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .rightpart a{
+      color: blue;
+      
+    }
+  }
+
+  
+  @media only screen and (min-width: 1800px) {
+    .leftpart{
+      
+      
+    }
+  } 
+
+  .headerprofile{
+    margin-right: 600px;
+    
+ }
+  .profile{
+    border: solid pink;
+    width: 500px;
+    height: 200px;
+    padding-left: 100px;
+    border-radius: 50px;
+    background-color: pink;
+  margin-top: 100px;
+  margin-left: 100px;
+
+} .home{
+  display: grid;
+  margin-left: 200px;
+  margin-top: -180px;
+  grid-template-columns: repeat(5,1fr);
+  
+
+
+}
+.home a{
+  text-decoration: none;
+  border: solid pink;
+  border-radius: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header{
     height: 600px;
     width: 1500px;
     background-color: orange;
@@ -10,14 +344,14 @@
 .top{
     height: 100px;
     width: 1480px;
-    background-color: rgb(176, 207, 228);
+    background-color: rgba(176, 207, 228, 0.315);
     display: grid;
     grid-template-columns: repeat(5,1fr);
     padding-left: 20px;
     
     
     
-}
+} 
 .top a{
     text-decoration: none;
     color: black;
@@ -38,7 +372,7 @@
     border: solid pink;
     border-radius: 30px;
     width: 30px;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     text-align: center;
     background-color: pink;
 
@@ -63,8 +397,8 @@ display: fixed;
  margin-left: 700px;
  margin-top: -180px;
  display: fixed;
- /* border: solid;
- border-radius: 90px; */
+  border: solid;
+ border-radius: 90px; 
  
 
 }
@@ -86,7 +420,7 @@ display: fixed;
    position: fixed;
 }
 .leftpart{
-    /* border: solid red; */
+     border: solid red; 
     width: 900px;
     height: 300px;
     margin-left: 500px;
@@ -97,8 +431,8 @@ display: fixed;
     margin-top: -400px;
 
    
-}
-.lastpart{
+} 
+ .lastpart{
     border: solid pink;
     width: 900px;
     height: 90px;
@@ -108,7 +442,7 @@ display: fixed;
     border-radius: 800px;
     background-color: pink;
     
-}
+} 
 .profile{
     border: solid pink;
     width: 1100px;
@@ -166,3 +500,163 @@ display: fixed;
       color:red;
     }
   }
+  @media only screen and (max-width: 1600px) {
+    .top{
+      background-color: rgb(215, 77, 233);
+     
+    }
+
+    .top{
+      height: 100px;
+      width: 1480px;
+      background-color: rgb(176, 207, 228);
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      padding-left: 20px;
+      
+      
+      
+  }
+  }
+
+  @media only screen and (max-width: 1600px) {
+    .leftdiv a{
+      background-color: lightblue;
+      color:red;
+    }
+  }
+  @media only screen and (max-width: 1600px) {
+    .rightdiv a{
+      background-color: lightblue;
+      color:red;
+    }
+  }
+  
+  @media only screen and (max-width: 1800px) {
+    .header{
+      background-color: brown;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 1800px) {
+    .rightpart a{
+      color: blue;
+      
+    }
+  }
+
+  
+  @media only screen and (max-width: 1800px) {
+    .leftpart{
+      
+      
+    }
+  }     */
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .top {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .leftpart {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+  
+  For desktop:
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+    For mobile phones:
+    [class*="col-"] {
+      width: 100%;
+    }
+  } */
